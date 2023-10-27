@@ -1,0 +1,36 @@
+.container-box{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    max-width: 400px;
+    gap:16px 
+}
+.container-table{
+    margin: 10px 8rem 3rem;
+}
+.button-add{
+    margin: 12px 10px 8px;
+}
+
+.container-form{
+    padding: 2em;
+    max-width: 400px;
+}
+.title-second{
+    margin: 10px 0 8px;
+    color: gray;
+}
+.from-quantity{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.btn_save{
+    margin-top: 12px;
+}
+.btn_plus{
+    height: 3rem;
+}
+.parrafo{
+    width: 80%;
+}
