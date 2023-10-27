@@ -34,3 +34,12 @@
 .parrafo{
     width: 80%;
 }
+.contendor_term{
+    width: 60%;
+    margin: auto !important ;
+  }  
+@media (max-width: 768px) {
+  .contendor_term{
+    width: 100%;
+  }  
+}

@@ -9,7 +9,8 @@ const HomePage = () => {
   return (
     <>
       <div className="container-fluid">
-        <article className="mx-auto p-4" style={{width:"50%"}}>
+        <section className="mx-auto p-4">
+        <article  className="contendor_term">
             <p>
               Al descargar o utilizar la aplicación de SIV Galería, usted acepta a cumplir estos términos y condiciones; por lo tanto, debe asegurarse de leerlos detenidamente antes de utilizar la aplicación. Si no está de acuerdo con estos términos, no utilice la Aplicación.
             </p>
@@ -38,6 +39,7 @@ const HomePage = () => {
             Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las modificaciones entrarán en vigencia inmediatamente después de su publicación en la Aplicación. Es su responsabilidad revisar regularmente estos términos y condiciones de la aplicación.
             </p>
         </article>
+        </section>
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           &reg; Derechos Reservados {new Date().getFullYear()} 
         </span>
