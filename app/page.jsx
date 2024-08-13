@@ -11,6 +11,9 @@ const HomePage = () => {
       <div className="container-fluid">
         <section className="mx-auto p-4">
         <article  className="contendor_term">
+          <div>
+          <input id='inputText' type='text'></input>
+          </div>
             <p>
               Al descargar o utilizar la aplicación de SIV Galería, usted acepta a cumplir estos términos y condiciones; por lo tanto, debe asegurarse de leerlos detenidamente antes de utilizar la aplicación. Si no está de acuerdo con estos términos, no utilice la Aplicación.
             </p>
